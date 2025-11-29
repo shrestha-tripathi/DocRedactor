@@ -4,8 +4,10 @@ const nextConfig = {
   trailingSlash: true,
   // Set basePath for GitHub Pages deployment
   // Change 'DocRedactor' to your actual repository name
-  basePath: process.env.NODE_ENV === 'production' ? '/DocRedactor' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/DocRedactor/' : '',
+  // basePath: process.env.NODE_ENV === 'production' ? '/DocRedactor' : '',
+  // assetPrefix: process.env.NODE_ENV === 'production' ? '/DocRedactor/' : '',
+  basePath: '',
+  assetPrefix: '',
   images: {
     unoptimized: true,
   },
@@ -48,3 +50,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
