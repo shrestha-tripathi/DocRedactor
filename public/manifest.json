@@ -2,14 +2,15 @@
   "name": "DocRedactor",
   "short_name": "DocRedactor",
   "description": "Privacy-First Document Redaction - automatically detect and remove PII from documents, all processing happens locally",
-  "start_url": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#3b82f6",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icons/icon.svg",
+      "src": "icons/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable any"

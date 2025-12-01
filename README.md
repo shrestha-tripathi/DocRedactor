@@ -1,4 +1,4 @@
-# DocRedactor
+sti# DocRedactor
 
 Privacy-First Document Redaction SaaS - A Next.js PWA that automatically detects and redacts PII from documents entirely client-side.
 
